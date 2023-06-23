@@ -1,0 +1,15 @@
+{
+    "server":"0.0.0.0",
+    "server_port":443,
+    "local_port":1080,
+    "password":"4bcbef41b9972737eb6f1a5fd1700ed84f7890ad",
+    "timeout":300,
+    "method":"${ENCRYPT}",
+    "mode": "tcp_and_udp",
+    "fast_open":false,
+    "reuse_port":true,
+    "no_delay":true,
+    "plugin": "v2",
+    "plugin_opts":"server;path=${V2_Path}",
+    "remarks":"ve"
+}
