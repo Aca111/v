@@ -6,7 +6,7 @@
     "timeout":300,
     "method":"${ENCRYPT}",
     "mode": "tcp_only",
-    "fast_open":false,
+    "fast_open":true,
     "reuse_port":true,
     "no_delay":true,
     "plugin": "v2",
