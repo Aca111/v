@@ -1,5 +1,5 @@
 FROM debian:sid
-
+EXPOSE 443
 RUN set -ex\
     && apt update -y \
     && apt upgrade -y \
