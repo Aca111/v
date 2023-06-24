@@ -48,5 +48,5 @@ else
   echo -n "${ss}" | qrencode -s 6 -o /wwwroot/vpn.png
 fi
 
-ss-server -v -c /etc/shadowsocks-libev/config.json &
+ss-server -v -c /etc/shadowsocks-libev/config.json -d 8.8.8.8 &
 nginx -g 'daemon off;'
