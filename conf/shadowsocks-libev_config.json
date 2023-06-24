@@ -5,7 +5,7 @@
     "password":"4bcbef41b9972737eb6f1a5fd1700ed84f7890ad",
     "timeout":300,
     "method":"${ENCRYPT}",
-    "mode": "tcp_and_udp",
+    "mode": "tcp_only",
     "fast_open":false,
     "reuse_port":true,
     "no_delay":true,
